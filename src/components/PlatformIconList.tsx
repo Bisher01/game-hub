@@ -5,12 +5,11 @@ import {
   FaXbox,
   FaApple,
   FaPlaystation,
-  FaLinux,
   FaAndroid,
 } from "react-icons/fa";
 import { MdPhoneIphone } from "react-icons/md";
-import { SiNintendo, SiNintendo3Ds } from "react-icons/si";
-import { BsGlobe } from "react-icons/bs";
+import { VscTerminalLinux } from "react-icons/vsc";
+import { BsGlobe, BsNintendoSwitch } from "react-icons/bs";
 import { IconType } from "react-icons";
 
 interface Props {
@@ -22,9 +21,9 @@ const PlatformIconList = ({ platforms }: Props) => {
     pc: FaWindows,
     playstation: FaPlaystation,
     xbox: FaXbox,
-    nintendo: SiNintendo3Ds,
+    nintendo: BsNintendoSwitch,
     mac: FaApple,
-    linux: FaLinux,
+    linux: VscTerminalLinux,
     android: FaAndroid,
     ios: MdPhoneIphone,
     web: BsGlobe,
